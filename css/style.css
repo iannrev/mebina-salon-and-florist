@@ -236,7 +236,7 @@ body {
   text-align: center;
   max-width: 30rem;
   margin: auto;
-  font-weight: 100;
+
   line-height: 1.6;
 }
 
@@ -280,7 +280,8 @@ body {
   text-align: center;
 }
 
-.conttact .row form .input-group {
+.conttact .row form .input-group,
+.conttact .row .conttact-group {
   display: flex;
   align-items: center;
   margin-top: 2rem;
@@ -289,7 +290,8 @@ body {
   padding-left: 2rem;
 }
 
-.conttact .row form .input-group input {
+.conttact .row form .input-group input,
+.conttact .row .conttact-group input {
   width: 100%;
   padding: 2rem;
   font-size: 1.7rem;
@@ -339,7 +341,7 @@ footer .links a {
 }
 
 footer .credit {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
 }
 
 footer .credit a {
